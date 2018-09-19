@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+main{
+    width: 1366px;
+    margin: auto;
+    height: 670px;
+    background-color: white;
+}
+
+ul{
+    list-style: 0;
+}
+
+h2{
+    padding-top: 105px;
+    padding-left: 99px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin: auto;
+    display: block;
+}
+
+.p1{
+    padding-top: 33px;
+    padding-left: 97px; 
+    padding-bottom: 239px;
+    padding-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.p2{
+    margin-top: -216px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.p3{
+    margin-top: -190px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-size: 15px;
+    width: 436px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.p4{
+    margin-top: -220px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-size: 15px;
+    width: 436px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.p5{
+    margin-top: -220px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-size: 15px;
+    width: 436px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.pz3{
+    margin-top: -335px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.pz4{
+    margin-top: -220px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.pz5{
+    margin-top: -220px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.kot{
+   float: right;
+}
+
+section{
+    display: block;
+}
+
+.header{
+    width: 1366px;
+    margin: auto;
+}
+
+.nav-header{
+    width: 1170px;
+    margin: 38px auto;
+}
+
+.logo-img{
+    width: 31px;
+    height: 25px;
+}
+
+.logo, .menu-item {
+    float: left;
+}
+
+.header-menu {
+    float: right;
+}
+
+.menu-item {
+    color: #000;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu_previos {
+    margin-top: -93px;
+    margin-left: 97px;
+    float: left;
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Montrrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu_project {
+    margin-top: -93px;
+    float: left;
+    margin-left: 675px;
+}
+
+.menu_nextproject {
+    margin-top: -93px;
+    margin-right: 97px;
+    float: right;
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Montrrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* .menu {
+    color: #000;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.menu-item:hover > a{
+    color: #10c9c3;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pfolio-subtitle{
+    padding: 30px 0 97px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto;
+    width: 512px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #b9b9b9;
+}
+
+.pfolio-img{
+    float: left;
+}
+
+.pfolio-item{
+    width: 341px;
+    height: 300px;
+}
+
+.footer {
+    width: 1366px;
+    height: 284px;
+    margin: auto;
+    background: #000;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    padding: 100px;
+}
+
+.info, .contact, .footer-menu a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #acacac;
+    float: left;
+}
+
+.info, .contact, .footer-menu, .footer-nav {
+    float: left;
+}
+
+.contact{
+    margin-left: 226px;
+}
+.footer-nav {
+    margin-left: 200px;
+}
+
+.news{
+    margin-left: 55px;
+}
+
+.social{
+    margin-left: 125px;
+}
+
