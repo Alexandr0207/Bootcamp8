@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu');
+
+.header{
+    padding-top: 77px;
+    margin: auto;
+    margin-bottom: 103px;
+}
+
+.menu{
+    text-align: center
+}
+
+.menu-item{
+    display: inline;
+    padding-left: 120px;   
+}
+
+section{
+    width: 960px;
+    margin: auto;
+}
+
+.article{
+    width: 420px;
+    float: left;
+    padding: 0 30px 121px;
+}
+
+.left-img{
+    width: 420px;
+}
+
+.lifestyle{
+    margin-top: 32px;
+    margin-bottom: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #d9d6ce;
+}
+
+.title{
+    margin-bottom: 34px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: #626262;
+}
+
+p{
+    color: #acacac;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 54px; 
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover{
+    color: #03a9f4;
+}
+
+.button{
+    margin: 0 -130px;
+    display: inline;
+    background-color: white;
+}
+
+button{
+    width: 164px;
+    height: 60px;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Playfair Display', serif;
+    color: #8a8a8a;
+}
