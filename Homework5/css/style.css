@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section{
+    width: 1111px;
+    margin: auto;
+}
+
+section{
+    background-color: #e9f0fd;
+}
+
+.nav{
+    display: flex;
+    padding-top: 38px;
+    padding-bottom: 32px;
+}
+
+.menu{
+    display: flex;
+    padding-left: 566px;
+    list-style: none;
+}
+
+.navigation:hover{
+    color: #1abc9c;
+}
+
+.Mart{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1f1212;
+}
+
+.logo:first-letter{
+    content: "";
+    color: #1abc9c;
+}
+
+.main{
+    background-image: url(../img/slide4.jpg);
+    background-position: center center;
+    height: 601px;
+    margin-bottom: 101px;
+    
+}
+
+.list{
+    display: flex;
+    background-color: #e9f0fd;
+}
+
+.podpis-tovara{
+    background: #323232;
+    width: 201px;
+    height: 30px;
+    color: white;
+    display: block;
+    position: relative;
+    top: -44px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.podpis-cena{
+    background: #8c8c8c;
+    font-size: 16px;
+    width: 42px;
+    height: 30px;
+    color: white;
+    display: block;
+    position: relative;
+    top: -84px;
+    left: 201px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 12px;
+}
+
+.title-main{
+    padding-bottom: 120px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: 101px;
+    display: flex;
+    justify-content: center;
+}
+
+.knopka-left{
+    position: relative;
+    top: 34px;
+    left: 35px;
+}
+
+.knopka-right{
+    position: relative;
+    top: 34px;
+    left: 40px;
+}
+
+h2:before{
+    content: "";
+    background: #1abc9c;
+    display: block;
+    width: 164px;
+    height: 7px;
+    position: absolute;
+    top: 865px;
+    left: 600px;
+}
+
+.div-title{
+    color: white;
+    
+}
+
+.menu-item-p:hover > .podpis-tovara{
+    background-color: #1abc9c;
+}
+
+.menu-item-p:hover > .icons-item{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    padding: 108px 27px;
+}
+
+.menu-item-p:hover > .podpis-cena{
+    background-color: #7fd9c7;
+}
+
+.foto_title{
+    text-transform: uppercase;
+    font-size: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 738px;
+    height: 98px;
+    padding: 202px 0px 260px 236px;
+    /* padding: 205px 0; */
+    margin: auto;
+    
+    
+}
+
+.buttons{
+    width: 104px;
+    height: 104px;
+    background-color:rgba(26, 188, 156,0.6);
+    position: absolute;
+    top: 317px;
+    left: 237px;
+    display: block;
+}
+
+.menu-item-p{
+    width: 255px;
+    padding-left: 28px;
+    list-style: none;
+    position: relative;
+}
+
+.icon-1, .icon-2, .icon-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.icons{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.5);
+    padding: 105px 27px;
+    background-clip: border-box;
+}
+
+.menu-item-p:hover >.icons {
+ display: flex;
+}
+
+.icons-item:hover{
+    background-color: #1abc9c;
+}
+
+.icon-zagolovok::before{
+    content: "";
+    background-image: url(../img/icontel.png);
+    width: 28px;
+    height: 27px;
+    display: block;
+    position: absolute;
+    left: -48px;
+    top: -6px;
+}
+
+.icon-zagolovok{
+    position: absolute;
+    top: 17px;
+    right: 25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c8c8c8;
+}
+
+.niz-icon{
+    display: block;
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 69%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    background: #323232;
+    border: 1px solid white;
+}
+
+.icons-item{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    margin-left: 9px;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.icon{
+    text-align: center;
+}
+
+.buttons:hover{
+    background-color: rgba(26, 188, 156,1); 
+}
+
+.glav-icons{
+    background-color: rgba(0,0,0,0.6)
+}
+
+.button{
+    width: 104px;
+    height: 104px;
+    background-color:rgba(26, 188, 156,0.6);
+    position: absolute;
+    top: 317px;
+    left: 1220px;
+    display: block;
+}
+
+.button:hover{
+    background-color: rgba(26, 188, 156,1); 
+}
+
+.zag-niz{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -270px;
+    left: -26px;
+    font-weight: normal;
+}
+
+.title{
+    width: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%),url(../img/slide4.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.logo:first-letter{
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+.menu-item{
+    padding-left: 33px;
+    margin: auto;
+}
+
+.navigation{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1f1212;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
