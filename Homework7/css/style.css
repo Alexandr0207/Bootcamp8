@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: wisdom-script;
+    src: url('../font/wisdom_script_aj.woff');
+    }
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url('../font/montserrat-v12-latin-regular.woff');
+}
+
+@font-face {
+    font-family: roboto-latin;
+    src: url('../font/roboto-slab-v7-latin-700.woff');
+}  
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../font/montserrat-v12-latin-700.woff');
+}  
+
+@font-face {
+    font-family: Droid;
+    src: url('../font/droid-serif.italic.woff');
+}   
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url('../font/roboto-slab-v7-latin-700.woff');
+}  
+
+.section{
+    width: 950px;
+    margin: auto;
+}
+
+
+.MoGo{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fed136;
+    font-family: wisdom-script;
+}
+
+.nav{
+    display: flex;
+    margin-top: 28px;
+    margin-left: 237px;
+    margin-bottom: 120px;
+}
+
+.menu{
+    padding-left: 374px;
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.menu-item{
+    padding-left: 40px;
+    margin: auto;
+    position: relative;
+}
+
+.navigation{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222222;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: montserrat-regular;
+}
+
+.navigation:hover{
+    color: #fed136;
+}
+
+.title_work_with{
+    margin-bottom: 19px;
+    font-size: 39px;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    color: #222222;
+}
+
+.bg{
+    background-image: url(../img/Map\ Image@1X.png);
+    width: 617px;
+    height: 537px;
+    position: absolute;
+    top: 131px;
+    left: 532px;
+}
+
+.footer{
+    background: #222222;
+}
+
+.title_wrk_with{
+    padding-bottom: 19px;
+    padding-top: 110px;;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.pod-title{
+    font-family: roboto-latin;
+    font-size: 13px;
+    color: #777777;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.karta-title{
+    position: relative;
+    list-style: none;
+    width: 274px;
+    padding-left: 42px;
+}
+
+.img-karta{
+    position: relative;
+    left: 85px;
+    padding-bottom: 28px;
+}
+
+.title-block{
+    font-size: 17px;
+    position: relative;
+    left: 68px;
+    font-family: Roboto-bold;
+    padding-bottom: 18px;
+}
+
+.Karta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-title{
+    font-size: 15px;
+    font-family: Droid;
+    color: #838383;
+    margin-bottom: 80px;
+}
+
+input{
+    width: 440px;
+    height: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Montserrat-Bold;
+    color: #bbbbbb;
+}
+
+.form__field {
+    width: 910px;
+    position: relative;
+}
+
+.formd{
+    position: absolute;
+    top: 269px;
+    left: 485px;
+}
+
+.ddd{
+    width: 455px;
+    height: 210px;
+    position: absolute;
+    top: 0;
+}
+
+.submit{
+    width: 240px;
+    height: 66px;
+    background: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 115px;
+    font-size: 17px;
+    border: 1px solid #fed136;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-left: 350px;
+    padding-bottom: 115px;
+}
+
+.input-right{
+    position: relative;
+    margin-top: -240px;
+    margin-left: 494px;
+    padding-bottom: 30px;
+}
+
+.comment-right{
+    width: 455px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.form__field > input[type="text"]:invalid,
+.form__field > input[type="email"]:invalid{
+    outline: 2px solid red;
+
+}
+
+.form__field > input[type="text"]:valid , 
+.form__field > input[type="email"]:valid{
+    outline: 2px solid green;
+}
+
+.ptitle{
+    font-size: 15px;
+    font-family: Droid;
+    color: #696969;
+    padding-bottom: 76px;
+
+}
+
+form{
+    display: flex;
+    width: 940px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+textarea{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 370px;
+    padding: 20px 20px;
+    height: 170px;
+    right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    resize: none;
+}
+
+.title{
+    width: 100%;
+}
+
+.div_title{
+    text-align: center;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    margin-bottom: 122px;
+}
