@@ -49,9 +49,9 @@
 
 .nav{
     display: flex;
-    margin-top: 28px;
-    margin-left: 237px;
-    margin-bottom: 120px;
+    padding-top: 28px;
+    margin: auto;
+    padding-bottom: 120px;
 }
 
 .menu{
