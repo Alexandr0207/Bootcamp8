@@ -1,0 +1,140 @@
+.nav{
+    background-image: url(../img/imr.png);
+    height: 542px;
+    background-color: grey;
+    width: 320px;
+    position: relative;
+    margin: auto;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-h{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.header-title{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.header-title-r{
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 39px;
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+
+}
+
+.header-title-l{
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    width: 217px;
+    margin: auto;
+    color: #e9dad1;
+    margin-bottom: 19px;
+}
+
+
+.submit{
+    width: 280px;
+    height: 40px;
+    background: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ff4e50;
+}
+
+
+.header-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    padding-bottom: 130px;
+}
+
+
+
+@media (min-width: 768px){
+    .section{
+        width: 768px;
+    }
+    .nav{
+        width: calc(384px*2);
+        height: 700px;
+        background-size: cover;
+        background-image: url(../img/im.png);
+    }
+    .header-block{
+        padding-left: 550px;
+        padding-top: 40px;
+    }
+    .header-title-l{
+        position: absolute;
+        top: 46px;
+        left: 50px;
+    }
+    .section-h{
+        font-size: 52px;
+        width: 491px;
+        padding-left: 140px;
+    }
+    .sub-title{
+        width: 398px;
+        margin-bottom: 34px;
+    }
+    .submit{
+        width: 226px;
+    }
+}
+
+@media (min-width: 1440px){
+    .nav{
+        width: 1440px;
+        height: 700px;
+        background-size: cover;
+        background-image: url(../img/im3.png);
+    }
+    .header-block{
+        padding-left: 55%;
+        padding-top: 3%;
+    }
+    .header-title-l{
+        padding-left: 15%;
+    }
+    .section-h{
+        font-size: 51px;
+        padding-left: 33%;
+        margin-bottom: 40px;
+    }
+    .sub-title{
+        width: 405px;
+        margin-bottom: 34px;
+        color: #f8f4f0;
+        font-size: 24px;
+    }
+}

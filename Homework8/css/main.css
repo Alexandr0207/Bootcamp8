@@ -1,0 +1,119 @@
+.nav-main{
+    background-color: #fff;
+    width: 320px;
+    margin: auto;
+}
+
+.main-submit{
+    width: 280px;
+    margin: 0 20px 57px 20px;
+    height: 40px;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff4e50;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #ff4e50;
+}
+
+.main-caption{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.main-paragraph{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 220px;
+    margin: auto;
+    color: #666666;
+    margin-bottom: 28px;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img-item{
+    border-radius: 50%;
+}
+
+.img-icon{
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+}
+
+.main-title{
+    margin-top: 68px;
+    margin-bottom: 14px;
+    font-size: 23px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.title{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px){
+    .section{
+        width: 768px;
+    }
+    .nav-main{
+        width: calc(384px*2);
+
+    }
+    .foto{
+        display: flex;
+        width: 530px;
+        padding-top: 30px;
+        margin-right: 40px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .karta{
+        padding-left: 30px;
+    }
+    .order{
+        order: 1;
+    }
+    .img-icon{
+        right: 20%;
+    }
+    .main-submit{
+        width: 193px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 20px 57px 286px;
+    } 
+}
+
+@media (min-width: 1440px){
+    .section{
+        width: 768px;
+    }
+    .nav-main{
+        width: 1440px;
+    }
+    .foto{
+        width: 70%;
+    }
+
+    .main-submit{
+        margin: 0 20px 57px 45%;
+    } 
+}
