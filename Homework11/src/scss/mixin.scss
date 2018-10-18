@@ -1,0 +1,10 @@
+@mixin block-options ($display: flex, $justify: space-between) {
+    display: $display;
+    justify-content: $justify;
+ }
+
+ @mixin text-style ($decoration: none, $weight: 400, $size: 20px) {
+     text-decoration: $decoration;
+     font-weight: $weight;
+     font-size: $size;
+ }
