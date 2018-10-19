@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans');
 
 *{
     margin: 0;
@@ -11,10 +11,10 @@ a{
 }
 
 main{
-    width: 1200px;
+    width: 1366px;
     margin: auto;
     height: 670px;
-    background-color: #f6f6f6;
+    background-color: white;
 }
 
 ul{
@@ -53,26 +53,73 @@ h2{
     width: 436px;
 }
 
-.p5{
-    margin-top: -212px;
-    margin-left: -56px; 
+.p3{
+    margin-top: -190px;
+    margin-left: 97px; 
     margin-bottom: 239px;
     margin-right: 148px;
-    font-family: 'Nunito Sans', sans-serif;
-    color: #b9b9b9;
-    font-size: 15px;
-    width: 437px;
-}
-
-.Zagolovki{
-    margin-top: -220px;
-    margin-left: 153px; 
-    margin-bottom: 239px;
     font-size: 15px;
     width: 436px;
     font-family: 'Montserrat', sans-serif;
     color: #000;
     font-weight: bold;
+}
+
+.p4{
+    margin-top: -220px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-size: 15px;
+    width: 436px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.p5{
+    margin-top: -220px;
+    margin-left: 97px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-size: 15px;
+    width: 436px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.pz3{
+    margin-top: -335px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.pz4{
+    margin-top: -220px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
+}
+
+.pz5{
+    margin-top: -220px;
+    margin-left: 153px; 
+    margin-bottom: 239px;
+    margin-right: 148px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #b9b9b9;
+    font-size: 15px;
+    width: 436px;
 }
 
 .kot{
@@ -84,33 +131,36 @@ section{
 }
 
 .header{
-    width: 1200px;
+    width: 1366px;
     margin: auto;
 }
 
 .nav-header{
-    width: 1200px;
+    width: 1170px;
     margin: 38px auto;
 }
 
-.menu-item {
+.logo-img{
+    width: 31px;
+    height: 25px;
+}
+
+.logo, .menu-item {
     float: left;
 }
 
 .header-menu {
-    text-align: center;
-    display: inline-block;
+    float: right;
 }
 
 .menu-item {
-    color: #acacac;
+    color: #000;
+    margin-left: 30px;
     list-style: none;
-    font-size: 11px;
-    text-align: center;
-    margin-left: 195px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu_previos {
@@ -123,13 +173,12 @@ section{
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
-    display: block;
 }
 
 .menu_project {
     margin-top: -93px;
     float: left;
-    margin-left: 672px;
+    margin-left: 675px;
 }
 
 .menu_nextproject {
@@ -144,6 +193,16 @@ section{
     text-transform: uppercase;
 }
 
+/* .menu {
+    color: #000;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+} */
+
 .menu-item:hover > a{
     color: #10c9c3;
 }
@@ -152,6 +211,26 @@ section{
     content: "";
     clear: both;
     display: table;
+}
+
+.pfolio-subtitle{
+    padding: 30px 0 97px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto;
+    width: 512px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #b9b9b9;
+}
+
+.pfolio-img{
+    float: left;
+}
+
+.pfolio-item{
+    width: 341px;
+    height: 300px;
 }
 
 .footer {
