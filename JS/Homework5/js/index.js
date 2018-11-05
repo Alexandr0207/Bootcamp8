@@ -105,7 +105,7 @@ const users = [
  * Получить массив имен (поле name) всех пользователей
  */
 
-const getAllNames = arr => users.map(el => el.name);
+const getAllNames = arr => arr.map(el => el.name);
 
 console.log(getAllNames(users)); 
 // [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
@@ -130,7 +130,7 @@ console.log(getUsersByGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazque
 /**
  * Получить массив только неактивных пользователей (поле isActive)
  */
-const getInactiveUsers = arr => users.filter(el => el.isActive === false);
+const getInactiveUsers = arr => arr.filter(el => el.isActive === false);
 
 console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
                       
@@ -158,7 +158,7 @@ console.log(getUsersWithAge(users, 30, 40));
 /**
  * Получить общую сумму баланса (поле balance) всех пользователей
  */
-const getTotalBalance = arr => users.reduce((acc , el) => acc + el.balance,0);
+const getTotalBalance = arr => arr.reduce((acc , el) => acc + el.balance,0);
 
 console.log(getTotalBalance(users)); // 20916
                                 
