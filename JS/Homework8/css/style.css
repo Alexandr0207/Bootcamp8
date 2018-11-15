@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.preview{
+  display: flex;
+  overflow: auto;
+  justify-content: space-between;
+}
+.li{
+object-fit: cover;
+width: 17%
+}
+img{
+  /* width: 100%; */
+  border: 1px solid dimgray;
+  display: block;
+}
+.immg{
+  background-size: cover;
+}
