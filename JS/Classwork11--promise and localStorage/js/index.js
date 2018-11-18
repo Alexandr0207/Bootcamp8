@@ -25,7 +25,8 @@ function readValue(e) {
     fontFamily: fontFamilySelect.value,
     fontSize: fontSizeSelect.value,
     fontColor: colorSelect.value,
-  }))
+  }));
+  getDataFromStorage();
 }
 function getDataFromStorage(){
   let result = JSON.parse(localStorage.getItem('settings'));
@@ -38,4 +39,5 @@ function getDataFromStorage(){
 }
 
 form.addEventListener('submit', readValue);
+window.addEventListener('DOMContentLoaded', getDataFromStorage);
 

@@ -62,12 +62,12 @@ const galleryItems = [{
   },
 ];
 
-let div = document.querySelector('#root');
+const div = document.querySelector('#root');
 div.classList.add('image-gallery', 'js-image-gallery');
-let divv = document.createElement('div');
+const divv = document.createElement('div');
 divv.classList.add('fullview');
 div.append(divv);
-let imgdiv = document.createElement('img');
+const imgdiv = document.createElement('img');
 imgdiv.classList.add('immg')
 imgdiv.setAttribute('alt', '');
 imgdiv.setAttribute('src', galleryItems[Math.floor(Math.random() * galleryItems.length)].fullview);
@@ -78,11 +78,11 @@ imgdiv.setAttribute('src', event.target.dataset.fullview);
 }
 
 function gallery(galleryItems) {
-  let ul = document.createElement('ul');
+  const ul = document.createElement('ul');
   ul.classList.add('preview');
-  for (let el of galleryItems) {
-    let li = document.createElement('li');
-    let img = document.createElement('img');
+  for (const el of galleryItems) {
+    const li = document.createElement('li');
+    const img = document.createElement('img');
     img.setAttribute('src', el.preview);
     img.setAttribute('data-fullview', el.fullview);
     img.setAttribute('alt', el.alt);

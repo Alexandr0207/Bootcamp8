@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- 2 завдання -->
+
+  <!-- <div class="content-placeholder"></div>
+  <template id="address-template">
+    <h2>В нем есть основная функция, которая называется {{title}}</h2>
+    <p>Мы используем помощники {{helpers}}</p>
+    <p>Он исполняет функцию {{func}}</p>
+  </template> -->
+
+  <!-- 2 завдання -->
+
+  <!-- 1 завдання -->
+  <!-- <div class="content-placeholder"></div>
+
+  <template id="address-template">
+    <p>You can find me in {{city}} . My address is {{number}} {{street}}</p>
+  </template> -->
+  <!-- 1 завдання -->
+
+  <!-- 3 завдання -->
+
+  <!-- <div class="content-placeholder"></div>
+
+  <template id="example-template">
+    {{#each people}}
+    <p>{{firstName}} {{lastName}}</p>
+    {{/each}}
+  </template> -->
+  <!-- 3 завдання -->
+
+  <!-- 4 завдання  -->
+
+  <!-- <div class="content-placeholder"></div>
+
+  <template id="example-template">
+    {{#each temp}}
+    <p>{{this}}</p>
+    {{/each}}
+  </template>  -->
+  <!-- 4 завдання -->
+
+  <!-- 5 завдання -->
+
+  <!-- <div class="content-placeholder"></div>
+
+
+  <template id="example-template">
+
+      <h2>{{title}}</h2>
+      <ul>
+    {{#each items}}
+      <li>{{this}}</li>
+    {{/each}}
+    </ul>
+  </template> -->
+
+  <!-- 5 завдання -->
+
+
+  <!-- 6 завдання -->
+
+
+  <!-- <div class="content-placeholder"></div> 
+
+  <template id="built-in-helpers-template">
+      {{#each animals}}
+      <p>
+          The {{name}} says
+          {{#if noise}} в if пишемо яке поле хочемо перевірити на true
+          "{{noise}}".
+          {{else}}
+          nothing since its a {{name}}.
+          {{/if}}
+      </p>
+      {{/each}}
+  </template> -->
+  <!-- 6 завдання -->
+
+  <div class="gallery">
+      <div class="gallery-content">
+          <template id="built-in-helpers-template">
+
+          <h2 class="gallery-title">{{title}}</h2>
+          
+          <!-- Розмножити each -->
+          <div class="gallery-content">
+              {{#each items}}
+          <div class="gallery-item">
+              <img class="gallery-img" src="{{img}}" alt="{{text}}">
+              <p class="gallery-text">{{text}}</p>
+          </div>
+          {{/each}}
+        </div>
+        </template>
+          <!-- кінець шаблона -->
+      </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
