@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <button class="bytne js-get-all-users" type="submit">БД пользователей</button>
+    <form class="search-form">
+      <input class="input-user-id" type="text" name="country" placeholder="Enter user id">
+      <button class="bytn js-users-by-id" type="submit">Найти пользователя</button>
+    </form>
+    <button class="bytne js-add-user" type="submit">Добавить пользователя</button>
+    <form class="search-form">
+      <input class="input-user-id-remove" type="text" name="country" placeholder="Enter user id">
+      <button class="bytn js-remove-user" type="submit">Удалить пользователя</button>
+    </form>
+    <form class="search-formup">
+      <input class="input-user-id-update" type="text" name="country" placeholder="Enter user id">
+      <button class="bytn js-update-user" type="submit">Обновить пользователя</button>
+    </form>
+    <ul class="turn js-list"></ul>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
