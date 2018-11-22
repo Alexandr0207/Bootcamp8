@@ -19,5 +19,10 @@ img{
   display: block;
 }
 .immg{
-  background-size: cover;
+  width: 99.8%;
+  display: block;
+  margin: auto;
+}
+.hover {
+ border: 3px solid crimson;
 }

@@ -83,6 +83,7 @@ function gallery(galleryItems) {
   for (const el of galleryItems) {
     const li = document.createElement('li');
     const img = document.createElement('img');
+    img.classList.add('active');
     img.setAttribute('src', el.preview);
     img.setAttribute('data-fullview', el.fullview);
     img.setAttribute('alt', el.alt);
@@ -91,11 +92,24 @@ function gallery(galleryItems) {
   }
   div.append(ul);
   ul.addEventListener('click', get);
+  ul.addEventListener('click', activeImg);
 }
 
 // function start(){
 //   immg.setAttribute('src', '')
 // }
+
+function activeImg(evn) {
+  let imgActive =[...document.querySelectorAll(".active")];
+  imgActive.forEach(el => {
+    if (evn.target !== el) {
+      el.classList.remove("hover");
+    } else {
+      el.classList.add("hover");
+    }
+  })
+
+  }
 
 gallery(galleryItems);
 console.log(div);
