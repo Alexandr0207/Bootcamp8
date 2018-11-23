@@ -40,4 +40,3 @@ function getDataFromStorage(){
 
 form.addEventListener('submit', readValue);
 window.addEventListener('DOMContentLoaded', getDataFromStorage);
-
