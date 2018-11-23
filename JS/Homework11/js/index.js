@@ -93,4 +93,8 @@ const laptops = [
   },
 ];
 
-const filter = { size: [], color: [], release_date: [] }
+
+function createLi(){
+  const filter = { size: [], color: [], release_date: [] }
+  
+}
