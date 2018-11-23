@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.search-form, .search-formup {
+.search-formid, .search-formup, .search-formdel {
   margin-left: 120px;
   display: inline-flex;
   width: 90px;

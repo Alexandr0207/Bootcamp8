@@ -21,13 +21,18 @@
   Сделать минимальный графический интерфейс в виде панели с полями и кнопками. 
   А так же панелью для вывода результатов операций с бэкендом.
 */
-let turn = document.querySelector('.turn');
+const turn = document.querySelector('.turn');
 const getAllUserBtn = document.querySelector('.js-get-all-users');
 const api = 'https://test-users-api.herokuapp.com/users/';
 const addUserBTN = document.querySelector('.js-add-user')
 const inputUpdate = document.querySelector('.input-user-id-update');
-const UpdateBTN = document.querySelector('.js-update-user');
+const updateBTN = document.querySelector('.js-update-user');
 const formUpdate = document.querySelector('.search-formup');
+const formDel = document.querySelector('.search-formdel');
+const inputDel = document.querySelector('.input-user-id-remove');
+const deleteBTN = document.querySelector('.js-remove-user');
+const formFind = document.querySelector('.search-formid');
+const inputFind = document.querySelector('.input-user-id');
 
 function getAllUsers() {
   event.preventDefault();
@@ -38,7 +43,7 @@ function getAllUsers() {
     .catch(err => console.log(err))
 }
 
-function createLi(arr) {
+function createLi(arr, id) {
   const ul = document.querySelector('.js-list');
   if (Array.isArray(arr)) {
     for (let el of arr) {
@@ -50,18 +55,12 @@ function createLi(arr) {
   } else {
     const li = document.createElement('li');
     li.classList.add('sss');
-    li.innerHTML = `<p>ID: ${arr._id}</p><p>NAME: ${arr.name}</p><p>AGE: ${arr.age}</p>`;
+    li.innerHTML = `<p>ID: ${arr[id]}</p><p>NAME: ${arr.name}</p><p>AGE: ${arr.age}</p>`;
     ul.append(li);
   }
 }
 
 getAllUserBtn.addEventListener('click', getAllUsers);
-
-// function getUserById(id) {
-
-// }
-
-
 
 function addUser() {
   event.preventDefault();
@@ -80,11 +79,29 @@ function addUser() {
         'Content-Type': 'application/json',
       }
     }).then(res => res.json())
-    .then(data => createLi(data.data))
+    .then(data => createLi(data.data, '_id'))
 
 }
 addUserBTN.addEventListener('click', addUser);
 
+
+function deleteUser() {
+  event.preventDefault();
+  fetch(`${api}${inputDel.value}`, {
+    method: 'delete',
+  })
+}
+formDel.addEventListener('submit', deleteUser);
+
+
+function GetUserById() {
+  event.preventDefault();
+  fetch(`${api}${inputFind.value}`)
+    .then(res => res.json())
+    .then(data => createLi(data.data, 'id'));
+}
+
+formFind.addEventListener('submit', GetUserById);
 
 function updateUser(e) {
   e.preventDefault();
@@ -94,12 +111,16 @@ function updateUser(e) {
     name: name,
     age: age,
   }
-  fetch(`api${inputUpdate.value}`), {
-  method: 'PUT',
-  body: JSON.stringify(obi),
-  headers: {
-    'Content-Type': 'application/json',
-  }
-}
-}
+  fetch(`${api}${inputUpdate.value}`, {
+    method: 'PUT',
+    body: JSON.stringify(obi),
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    }
+  })
+  updateUser.reset();
+  // .then(data=> data.json())
+  // .then(data=> console.log(data))
+};
 formUpdate.addEventListener('submit', updateUser);
