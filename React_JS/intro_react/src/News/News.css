@@ -1,0 +1,9 @@
+.news{
+  background-color: dimgray;
+  padding: 0 16px;
+  flex-basis: 75%;
+}
+
+.ttitle{
+  text-transform: uppercase;
+}
