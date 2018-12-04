@@ -93,8 +93,8 @@ const laptops = [
   },
 ];
 
-
-function createLi(){
-  const filter = { size: [], color: [], release_date: [] }
-  
-}
+const filter = { size: [], color: [], release_date: [] }
+const sorce = document.querySelector('#sorce').innerHTML.trim();
+const template = Handlebars.compile(sorce);
+const markup = template(laptops);
+console.log(sorce);

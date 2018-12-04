@@ -1,0 +1,44 @@
+.error {
+  text-align: center;
+  color: red;
+  list-style: none;
+}
+
+.bottom{
+  position: absolute;
+  right: 25%;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: 1s;
+}
+
+.top{
+  transform: rotate(180deg);
+}
+
+h2 {
+  text-align: center;
+}
+
+.refresh {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 3px 4px 6px 1px;
+}
+
+.new {
+  width: 50%;
+  margin: auto;
+  border: 2px solid;
+  padding: 25px;
+}
+
+.news {
+  font-size: 18px;
+  list-style: none;
+  width: 100%;
+  border: 2px solid;
+  margin-top: 5px;
+  padding: 5px;
+}

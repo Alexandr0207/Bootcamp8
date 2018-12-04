@@ -1,0 +1,50 @@
+.info{
+  background: darkslateblue;
+  display: flex;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: space-between;
+  padding: 65px;
+  height: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+.closing {
+  position: relative;
+  bottom: 145px;
+  cursor: pointer;
+  left: 150px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.table {
+  position: relative;
+  bottom: 145px;
+  cursor: pointer;
+  left: 110px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.add{
+  position: absolute;
+  width: 300px;
+  margin: auto;
+  border: 2px solid;
+  outline: none;
+  left: 39%;
+  border-radius: 10px;
+  top: 2%;
+  height: 40px;
+}
+
+
+.carrd{
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  background: rgb(150, 150, 150);
+}
