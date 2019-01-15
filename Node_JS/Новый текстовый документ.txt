@@ -1,0 +1,8 @@
+object id - главная база данных id
+
+Расшифровка ID /
+
+
+objectId("56cc30e2e52c943bf62fff72")
+56cc30e2 - time (время)
+e52c94 - mid ()
