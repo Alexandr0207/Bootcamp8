@@ -1,0 +1,55 @@
+.info {
+    color: white;
+    padding: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.oneDay {
+    width: 300px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 11px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    position: absolute;
+    width: 100px;
+    left: 155px;
+}
+
+@media (min-width: 425) and (max-width: 1200px) {
+    /* .oneDay {
+        position: absolute;
+        bottom: 5%;
+        left: 18%;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0px 0px 11px 10px rgba(0, 0, 0, 0.5);
+    } */
+
+}
+
+/* .info {
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.oneDay {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 11px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    position: absolute;
+    width: 100px;
+    left: 56%;
+    bottom: 40%;
+} */

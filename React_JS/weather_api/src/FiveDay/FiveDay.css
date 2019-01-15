@@ -1,0 +1,218 @@
+.fiveDayn{
+  color: white;
+  font-weight: 500;
+  margin-left: 23px;
+  margin-right: 23px;
+  width: 172px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(0,0,60,0.3);
+  padding: 10px;
+  height: 11.5rem;
+  margin-bottom: 7%;
+  -webkit-box-shadow: 10px 0px 10px 0px rgba(0,0,60,0.3);
+          box-shadow: 10px 0px 10px 0px rgba(0,0,60,0.3);
+  }
+
+  /* .divd{
+    display: flex;
+    justify-content: space-around;
+  }  */
+  
+  .den{
+    border-radius: 15px;
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7);
+            box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7)
+  }
+  
+  .fiveDayn:hover{
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .fiveDayn:hover{
+    color: black;
+  }
+  
+  h3{
+    font-size: 15px;
+  }
+  
+  .icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+  }
+  
+  p{
+    font-size: 13px;
+  }
+  
+  .desc{
+    font-size: 13px; 
+    font-weight: 700;
+  }
+  
+  .yeardate{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  .load{
+    width: 100%;
+      height: 100%;
+      position: fixed;
+      color: black;
+      margin: auto;
+      font-size: 70px;
+      top: 50%;
+      background-image: transparent;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+  }
+  
+  .loading{
+    color: #fff;
+  }
+  
+  .divr{
+    border-radius: 15px;
+    height: 15rem;
+    overflow-y: scroll;
+    -webkit-box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7);
+            box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7)
+  }
+  .divr::-webkit-scrollbar { width: 3px;}
+       ::-webkit-scrollbar-track-piece { background-color: transparent;}
+       ::-webkit-scrollbar-thumb { height: 15px; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;}
+       ::-webkit-scrollbar-thumb:hover { height: 15px; background-color: rgba(255, 255, 255, 0.5); border-radius: 20px;}
+ 
+@media (min-width: 767px) and (max-width:1280px) {
+  /* .divr{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+  }
+  .den{
+  }
+  .divd{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .fiveDayn{
+    
+  } */
+}
+
+/* 
+.fiveDayn{
+  color: white;
+      font-weight: 500;
+      margin-left: 23px;
+      margin-right: 23px;
+      width: 172px;
+      border-radius: 10px;
+      background-color: rgba(0,0,60,0.3);
+      padding: 10px;
+      height: 11.5rem;
+      box-shadow: 5px 0px 10px 0px rgba(0,0,60,0.3)
+  }
+  
+  .five{
+    position: absolute;
+    bottom: 0.6rem;
+    width: 100%;
+  }
+  
+  .den{
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7);
+  }
+  
+  .fiveDayn:hover{
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .fiveDayn:hover{
+    color: black;
+  }
+  
+  h3{
+    font-size: 15px;
+  }
+  
+  .icon{
+    display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  
+  p{
+    font-size: 14px;
+  }
+  
+  .desc{
+    font-size: 13px; 
+    font-weight: 700;
+  }
+  
+  .yeardate{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  .load{
+    width: 100%;
+      height: 100%;
+      position: fixed;
+      color: black;
+      margin: auto;
+      font-size: 70px;
+      top: 50%;
+      background-image: transparent;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+  }
+  
+  .loading{
+    color: #fff;
+  }
+  
+  .divr{
+    display: flex;
+    overflow: auto;
+    border-radius: 13px;
+    padding-right: 50px;
+    box-shadow: 0px 0px 27px 10px rgba(0,0,0,0.7);
+    padding-top: 15px;
+  }
+  .divr::-webkit-scrollbar { width: 3px;}
+       ::-webkit-scrollbar-track-piece { background-color: transparent;}
+       ::-webkit-scrollbar-thumb { height: 15px; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;}
+       ::-webkit-scrollbar-thumb:hover { height: 15px; background-color: rgba(255, 255, 255, 0.5); border-radius: 20px;}
+  
+  .divd{
+    display: flex;
+    justify-content: space-around;
+  } */

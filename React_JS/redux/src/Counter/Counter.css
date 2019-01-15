@@ -1,0 +1,27 @@
+.count{
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p{
+  text-align: center;
+  font-size: 80px;
+
+}
+
+.btn{
+  flex-basis: 30%;
+  display: block;
+  outline: none;
+  height: 5rem;
+  background-color: rgba(0, 200, 0, 0.5);
+  border: none;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}

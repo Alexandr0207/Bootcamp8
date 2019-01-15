@@ -1,0 +1,23 @@
+.ddd {
+  width: 60%;
+  margin: auto;
+}
+
+canvas {
+  height: 300px;
+}
+
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+}
+
+/* .ddd {
+  width: 60%;
+  margin: auto;
+  height: 8rem;
+}
+
+canvas {
+  height: 300px;
+} */

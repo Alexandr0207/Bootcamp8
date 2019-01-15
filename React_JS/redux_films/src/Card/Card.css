@@ -1,0 +1,14 @@
+.card{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.carta{
+  width: 150px;
+  border: 2px solid;
+  background: aliceblue;
+}

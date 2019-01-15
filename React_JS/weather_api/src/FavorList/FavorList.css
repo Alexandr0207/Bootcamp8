@@ -1,0 +1,104 @@
+.list {
+  margin-bottom: 70px;
+  width: 200px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  list-style: none;
+  height: 100px;
+  overflow: auto;
+}
+.list::-webkit-scrollbar { width: 3px;}
+     ::-webkit-scrollbar-track-piece { background-color: transparent;}
+     ::-webkit-scrollbar-thumb { height: 50px; background-color: white; border-radius: 100%;}
+.lilist {
+position: relative;
+text-align: center;
+cursor: pointer;
+border-bottom: 1px solid white;
+} 
+
+.bttn{
+  width: 200px;
+  font-size: 0.8rem;
+  color: white;
+  background: rgba(0,200,0, 0.2);
+  border: 2px solid rgb(0,200,0);
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-weight: 700;
+  transition: 1s;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+}
+
+.bttn:hover{
+  background: rgb(0,200,0)
+}
+
+.favor{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+.item:last-child{
+   border-bottom: 2px solid black;
+}
+
+.span{
+  position: absolute;
+    right: 2%;
+    width: 10%;
+}
+
+@media (min-width: 480px) and (max-width:767px) {
+  /* .list{
+    position: absolute;
+    top: 37%;
+    right: 0;
+    width: 44%;
+    margin: auto;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    list-style: none;
+    height: 7rem;
+    overflow: auto;
+  } */
+}
+
+/* .list {
+  position: absolute;
+  right: 10px;
+  top: 28%;
+  width: 200px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  list-style: none;
+  height: 200px;
+  overflow: auto;
+}
+.list::-webkit-scrollbar { width: 3px;}
+     ::-webkit-scrollbar-track-piece { background-color: transparent;}
+     ::-webkit-scrollbar-thumb { height: 50px; background-color: white; border-radius: 100%;}
+.lilist {
+position: relative;
+text-align: center;
+cursor: pointer;
+border-bottom: 1px solid white;
+} 
+
+.item:last-child{
+   border-bottom: 2px solid black;
+}
+
+.span{
+  position: absolute;
+    right: 3%;
+    width: 10%;
+} */

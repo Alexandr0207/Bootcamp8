@@ -1,0 +1,101 @@
+.knopka{
+  list-style: none;
+  border: 2px solid rgb(0, 200, 0);
+  padding: 0.2rem;
+  background: rgba(0, 200, 0, 0.3);
+  margin-right: 32px;
+  height: 3rem;
+  padding-top: 0.8rem;
+  border-left: 2px solid transparent;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 30px
+}
+
+.knopk{
+  list-style: none;
+  border: 2px solid rgb(0, 200, 0);
+  padding: 0.1rem;
+  background: rgba(0, 200, 0, 0.3);
+  top: 25.7%;
+  font-size: 0.8rem;
+  left: 29%;
+  position: absolute;
+  text-align: center;
+  padding-top: 0.8rem;
+  transition: 1s;
+}
+
+.knopk:hover{
+  background: rgb(0, 200, 0)
+}
+
+.knopka:hover{
+  background: rgb(0, 200, 0)
+}
+
+.list{
+  /* width: 50%; */
+  font-weight: 700;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+  height: 32px;
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+  .list{
+    width: 50%;
+  }
+}
+
+/* .knopka{
+  list-style: none;
+  border: 2px solid rgb(0, 200, 0);
+  padding: 0.2rem;
+  background: rgba(0, 200, 0, 0.3);
+  margin-right: 32px;
+  height: 3rem;
+  padding-top: 0.8rem;
+  border-left: 2px solid transparent;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 30px
+}
+
+.knopk{
+  list-style: none;
+  border: 2px solid rgb(0, 200, 0);
+  padding: 0.2rem;
+  background: rgba(0, 200, 0, 0.3);
+  height: 3.25rem;
+  bottom: 10%;
+  left: 40.7%;
+  position: absolute;
+  text-align: center;
+  padding-top: 0.8rem;
+  transition: 1s;
+}
+
+.knopk:hover{
+  background: rgb(0, 200, 0)
+}
+
+.knopka:hover{
+  background: rgb(0, 200, 0)
+}
+
+.list{
+  width: 50%;
+  font-weight: 700;
+  position: relative;
+  font-size: 13px;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+  height: 32px;
+  display: block;
+} */
