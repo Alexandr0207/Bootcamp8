@@ -1,0 +1,150 @@
+.skills_container{
+  width: 90%;
+  /* background: linear-gradient(to right,rgba(255,255,255, 0.5), rgba(255,255,255, 0,5)); */
+  /* background: linear-gradient(rgba(252,227,138,0.9), rgba(243,129,129, 0.9)); */
+  background-image: url(./images.jpg);
+  display: block;
+  margin: auto;
+  /* border-radius: 20px; */
+  padding-bottom: 0.7rem;
+  transition: 2s;
+  border: 2px solid black;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  opacity: 0.9;
+}
+
+.goit{
+  width: 90%;
+    margin: auto;
+    font-weight: 700;
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+.goit_spec{
+  width: 90%;
+  margin: auto;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+}
+
+.addit{
+  width: 90%;
+  margin: auto;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.fullstack{
+  font-weight: 400;
+}
+
+@media (min-width: 767px) and (max-width:1279px) {
+  .addit.goit_spec{
+    font-size: 1rem;
+  }
+  .goit_spec{
+    font-size: 1rem;
+  }
+}
+
+.skills_title{
+  text-align: center;
+  padding-top: 1rem;
+  width: 90%;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin: auto;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.soft_html{
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.gal_soft{
+  margin-left: 10px;
+  color: orangered;
+}
+
+.soft_ruler{
+  width: 90%;
+  height: 0.7rem;
+  padding-top: 0.15rem;
+  margin: auto;
+  margin-top: 5px;
+  display: block;
+  background: #333333;
+  border-radius: 25px;
+}
+
+.soft_meter{
+  width: 88%;
+  height: 0.4rem;
+  background: darkorange;
+  border-radius: 25px;
+  display: flex;
+  margin-left: 6px;
+}
+
+
+.team{
+  width: 89%;
+}
+
+.respon{
+  width: 96%;
+}
+
+.reloc{
+  width: 80%;
+}
+
+.confid{
+  width: 70%;
+}
+
+.eng{
+  width: 60%;
+}
+
+.rus{
+  width: 85%;
+}
+
+@media(min-width: 1280px){
+  .skills_container{
+  width: 760px;
+  margin-bottom: 0;
+  /* margin-top: 1.5rem; */
+  height: 600px;
+  position: relative;
+  /* margin-left: 15%; */
+  }
+  .soft_html{
+    font-size: 1.3rem;
+  }
+  .goit{
+    font-size: 1.3rem;
+  }
+  .goit_spec{
+    font-size: 1rem;
+  }
+  .addit{
+    font-size: 1.2rem;
+  }
+  .soft_ruler{
+    margin-top: 10px;
+  }
+}

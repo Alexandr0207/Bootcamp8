@@ -34,6 +34,7 @@ const Chart = ({chart}) => {
                 text: 'График температуры',
                 position:'top',
                 fontColor: 'white',
+                opacity: '1',
                 fontSize: 20, 
             },
         

@@ -7,6 +7,7 @@
   margin: auto;
   border-radius: 10px;
   background-color: rgba(0,0,60,0.3);
+  
   padding: 10px;
   height: 11.5rem;
   margin-bottom: 7%;
@@ -21,7 +22,7 @@
   
   .den{
     border-radius: 15px;
-    width: 100%;
+    width: auto;
     margin: auto;
     -webkit-box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7);
             box-shadow: 0px 25px 100px 7px rgba(0,0,0,0.7)
@@ -64,7 +65,7 @@
     text-align: center;
     color: white;
     font-family: monospace;
-    font-size: 30px;
+    font-size: 27px;
     padding-bottom: 5px;
     text-transform: capitalize;
   }
@@ -99,23 +100,28 @@
        ::-webkit-scrollbar-thumb { height: 15px; background-color: rgba(0, 0, 0, 0.5); border-radius: 20px;}
        ::-webkit-scrollbar-thumb:hover { height: 15px; background-color: rgba(255, 255, 255, 0.5); border-radius: 20px;}
  
-@media (min-width: 767px) and (max-width:1280px) {
-  /* .divr{
+@media (min-width: 767px) and (min-width:1280px) {
+  .divr{
     display: flex;
-    justify-content: space-between;
-    overflow: auto;
+    overflow-x: scroll;
+    width: 95%;
+    margin: auto;
   }
   .den{
-  }
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  } 
   .divd{
     display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
   }
   .fiveDayn{
-    
-  } */
+     margin-bottom: 0;
+     margin-left: 20px;
+    margin-right: 20px;
+  } 
 }
 
 /* 

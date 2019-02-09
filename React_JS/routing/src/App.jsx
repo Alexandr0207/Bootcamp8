@@ -20,7 +20,7 @@ class App extends Component {
       <Menu/>
       <Switch>
         <Route exact path="/" render={(props) => <Home {...props} hometext={this.state.home}/>}/>
-        <Route path="/about" render={(props) => <About {...props} aboutext={this.state.about}/>}/>
+        <Route ptitle_projectath="/about" render={(props) => <About {...props} aboutext={this.state.about}/>}/>
         <Route path="/contact" render={(props) => <Contact {...props} contactext={this.state.contact}/>}/>
       </Switch>
       

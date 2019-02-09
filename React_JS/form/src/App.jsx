@@ -82,7 +82,8 @@ class App extends Component {
           <input type="submit" value="add" className="add"/>
         </form>
         <ul className="list">
-         {tasks.map(el => <li key={el.id} id={el.id} onClickCapture={this.toggleComplete} className={el.complete ? 'list__item done' : 'list__item'}>{el.text}<img src={trash} alt="Delete-icon" className="delete" onClick={this.deletLi} data-id ={el.id}/></li>)}
+         {tasks.map(el => <li 
+          className={el.complete ? 'list__item done' : 'list__item'}>{el.text}<img src={trash} alt="Delete-icon" className="delete" onClick={this.deletLi} data-id ={el.id}/></li>)}
         </ul>
         <button onClick={this.toggleModal}>Show Modal</button>
       </div>

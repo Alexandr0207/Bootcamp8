@@ -1,60 +1,35 @@
-.knopka{
-  list-style: none;
-  border: 2px solid rgb(0, 200, 0);
-  padding: 0.2rem;
-  background: rgba(0, 200, 0, 0.3);
-  transition: 1s;
-  padding-top: 0.8rem;
-}
-
 /* .lise{
   margin-bottom: 180px;
 } */
 
+
+
 .knopk{
-  transition: 1s;
   list-style: none;
-  border: 2px solid rgb(0, 200, 0);
-  padding: 0.2rem;
-  background: rgba(0, 200, 0, 0.3);
-  padding-top: 0.8rem;
+  color: white
+}
+
+.knopka{
+  list-style: none;
+  color: #6f93df;
 }
 
 .knopkk{
-  transition: 1s;
   display: none;
-  list-style: none;
-  border: 2px solid rgb(0, 200, 0);
-  padding: 0.2rem;
-  background: rgba(0, 200, 0, 0.3);
-  padding-top: 0.8rem;
-}
-
-
-.knopk:hover{
-  background: rgb(0, 200, 0)
-}
-
-.knopka:hover{
-  background: rgb(0, 200, 0)
+  color: white;
 }
 
 .list{
   margin-left: 3%;
   display: flex;
   /* width: 20%; */
+  list-style: none;
   font-weight: 700;
+  color: white;
   font-size: 0.8rem;
 }
 
-.a{
-  text-decoration: none;
-  color: white;
-  height: 32px;
-  display: block;
-}
-
-@media (min-width: 767px) and (max-width:1280px) {
+@media (min-width: 767px) and (min-width:1280px) {
   .knopkk{
   display: block;
   }

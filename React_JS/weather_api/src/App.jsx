@@ -84,7 +84,7 @@ class App extends Component {
      this.setState({
        date: dateNow,
      })
-    },1000);
+    }, 0);
   }
 
   changedInput = (e) => {
@@ -117,7 +117,7 @@ class App extends Component {
     result.push(list);
     localStorage.setItem('favorList', JSON.stringify(result));
   } else {
-    alert('poka');
+    alert('Извините! Такой город уже есть в списке!');
   }
   }
 
@@ -148,7 +148,7 @@ class App extends Component {
     // console.log(this.state.backGroundUrl);
     // largeImageURL
     return (
-      <div className={style.App} style={ { backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(${backGroundUrl})` } }>
+      <div className={style.App} style={ { backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${backGroundUrl})` } }>
        {this.state.isLoading ? 
        <div className={style.load}><Loader type="Bars" color="#fff" height={80} width={80}/><p className={style.loading}>LOADING...</p></div> : 
        <div className={style.cde}>

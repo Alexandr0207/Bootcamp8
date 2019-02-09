@@ -4,7 +4,8 @@ import moment from'moment';
 
 const OneDay = ({data,fetchData, temp, pressure, humidity, temp_min, temp_max, sunrise, sunset, wind}) => {
   return (
-    <div className={styles.oneDay}>
+    <div className={styles.vh}>
+      <div className={styles.oneDay}>
       <div className={styles.info}>
       <img className={styles.img} src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`} alt="Weattherd"/>
       <div>
@@ -16,6 +17,7 @@ const OneDay = ({data,fetchData, temp, pressure, humidity, temp_min, temp_max, s
         <p>Восход солнца: {moment.unix(sunrise).format("HH:mm")} по местному времени</p>
         <p>Заход солнца: {moment.unix(sunset).format("HH:mm")} по местному времени</p>
         <p>Ветер: {wind}м/с</p>
+        </div>
         </div>
         </div>
     </div>

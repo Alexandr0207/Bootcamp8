@@ -2,7 +2,7 @@
   background: transparent;
   font-size: 17px;
   border: none;
-  width: 70%;
+  width: 60%;
   outline: none;
   color: white;
   border-bottom: 1px solid;
@@ -11,6 +11,8 @@
 .header{
   display: flex;
   align-items: center;
+  width: 90%;
+  margin: auto;
   justify-content: space-around;
 }
 
@@ -21,19 +23,25 @@
 }
 
 .author{
-  display: flex;
-  margin-right: 5px;
   justify-content: flex-end;
   font-size: 12px;
   font-family: cursive;
   font-weight: 700;
   color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .search{
   padding-left: 10px;
   cursor: pointer;
   outline: none;
+}
+
+.time_info{
+  display: flex;
+    flex-direction: column-reverse;
 }
 
 .form{
@@ -44,31 +52,38 @@
 .city{
   /* position: absolute; */
   font-size: 0.7rem;
+  color: white;
   text-align: center;
 }
 
 .time{
 color: white;
-    margin-top: 5%;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column-reverse;
+/* width: 10px; */
+    font-size: 0.7rem;
+text-align: center;
+    /* display: flex;
+    flex-direction: column-reverse; */
 }
 
-@media (min-width: 767px) and (max-width:1280px) { 
+@media (min-width: 767px) and (min-width:1279px) { 
  .inp{
     font-size: 25px;
-
+    width: 80%;
   } 
+  .header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
   .time{
-    font-size: 1.5rem
+    font-size: 1rem
   }
   .city{
     font-size: 1rem
   }
   .location{
     width: 55px;
-    height: 55px;
+  height: 55px;
   }
 }
 

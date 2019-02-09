@@ -1,0 +1,220 @@
+.about_container{
+  width: 90%;
+  /* background: linear-gradient(to right,rgba(255,255,255, 0.5), rgba(255,255,255, 0,5)); */
+  /* background: linear-gradient(rgba(252,227,138,0.9), rgba(243,129,129, 0.9)); */
+  background-image: url(./images.jpg);
+  display: block;
+  margin: auto;
+  /* border-radius: 20px; */
+  padding-bottom: 1.3rem;
+  transition: 2s;
+  border: 2px solid black;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+
+.download{
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+  background: darkorange;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  margin-top: 38px;
+  font-weight: 700;
+  transition: 1s;
+  outline: none;
+}
+
+.download:hover{
+  background: white;
+  color: darkorange;
+}
+
+.down{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  padding-top: 1rem;
+  width: 90%;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+.ruler{
+  width: 90%;
+  height: 0.7rem;
+  padding-top: 0.15rem;
+  margin: auto;
+  display: block;
+  background: #333333;
+  border-radius: 25px;
+}
+
+.meter{
+  width: 88%;
+  height: 0.4rem;
+  background: darkorange;
+  border-radius: 25px;
+  display: flex;
+  margin-left: 6px;
+}
+
+.meter_js{
+  width: 68%;
+}
+
+.meter_react{
+  width: 80%;
+}
+
+.meter_redux{
+  width: 75%;
+}
+
+.meter_trello{
+  width: 65%;
+}
+
+.meter_github{
+  width: 70%;
+}
+
+.meter_sass{
+  width: 67%;
+}
+
+.title_skills{
+  text-align: center;
+  padding-top: 1rem;
+  width: 90%;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin: auto;
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.html{
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: left;
+}
+
+.name-title{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding-top: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front-end{
+  text-align: center;
+    padding-top: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.front-info{
+  text-align: center;
+    padding-top: 0.4rem;
+    margin: auto;
+    width: 90%;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.svg-size{
+  width: 25px;
+    height: 25px;
+}
+
+.li-info{
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.texdr{
+  margin-left: 3%;
+}
+
+.contact_con{
+  list-style: none;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.contact_container{
+  width: 87%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.contacts{
+  width: 91px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid black;
+    margin-top: 3%;
+}
+
+@media(min-width: 1280px){
+  .about_container{
+  width: 760px;
+  margin-bottom: 0;
+  /* margin-top: 1.5rem; */
+  height: 600px;
+  position: relative;
+  }
+  .perevorot{
+    display: flex;
+    justify-content: space-evenly
+  }
+  .contact_con{
+    width: 75%;
+  }
+  .down{
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 71%;
+    right: 0%;
+    text-align: left;
+  }
+  .contacts{
+    width: 324px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    border-bottom: 1px solid black;
+    margin-top: 4.5%;
+  }
+  .contact_container{
+    margin: 0;
+  }
+  .techd{
+    width: 100%;
+  }
+}

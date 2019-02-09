@@ -1,0 +1,140 @@
+.Navigation{
+  width: 250px;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background-image: url(../img/sidebar.jpg); */
+  /* height: 100vh; */
+}
+
+@media (min-width: 1280px){
+  .Navigation{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+}
+
+.findme{
+  list-style: none;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* background: #000; */
+  background-image: url('./images.jpg');
+  justify-content: space-evenly;
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;  */
+  border: 1px solid #000;
+  -webkit-box-pack: space-evenly;  
+  -ms-flex-pack: space-evenly;  
+  justify-content: space-evenly;
+}
+
+.main-item__icon{
+  fill: aqua;
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin{
+  background: white;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+.linkedin_photo{
+  background-image: url('./Linkedin.svg');
+    /* border-radius: 100px;
+     */
+     width: 50px;
+     height: 50px;
+     display: block;
+     transition: 1s;
+}
+
+.linkedin_photo:hover{
+  background-image: url('./Linkedn.svg')
+}
+
+.linkedin_photo_facebook{
+  background-image: url('./facebook.svg');
+  width: 50px;
+  height: 50px;
+  display: block;
+  transition: 1s;
+}
+
+.linkedin_photo_facebook:hover{
+  background-image: url('./facebooked.svg');
+}
+
+.linkedin_photo_github{
+  background-image: url('./GitHub.svg');
+  width: 50px;
+  height: 50px;
+  display: block;
+  transition: 1s;
+}
+
+.linkedin_photo_github:hover{
+  background-image: url('./GitHubed.svg');
+}
+
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* padding-top: 50%; */
+}
+
+.photo{
+  width: 250px;
+  border: 1px solid;
+  /* border-top-left-radius: 10px; */
+  margin-bottom: -6px;
+  height: 236px;
+  /* border-top-right-radius: 10px; */
+}
+.knopk{
+  background-image: url('./images.jpg');
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  /* border: 1px solid black; */
+  border: 1px solid #000;
+  outline: none; 
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  transition: 0.5s;
+}
+
+.knopka{
+  background-image: url('./images.jpg');
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  /* border: 1px solid black; */
+  border: 1px solid #000;
+  outline: none; 
+  padding: 12px;
+  display: block;
+  transition: 0.5s;
+}
+
+.knopk:hover{
+  background: white;
+  color: #000;
+}
+
+.knopka:hover{
+  background: white;
+  color: #000;
+}
