@@ -5,12 +5,13 @@ import {connect } from 'react-redux';
 // import axios from 'axios';
 import {input} from './components/redux/actions/inputAction.js';
 import { fetchData } from './components/redux/actions/FetchDataAction.js';
+import {loading} from './components/redux/actions/LoadingAction';
 
 
 class App extends Component {
 
   componentDidMount() {
-    this.props.fetchGet()
+    this.props.fetchGet(this.props.input);
   }
   // console.log(this.props);
   // fetchData = (e) =>{
@@ -43,8 +44,16 @@ class App extends Component {
   //   })
   // } 
 
+  getData = (e) => {
+    e.preventDefault();
+    this.props.fetchGet(this.props.input);
+  }
+
+  
   render() {
-    console.log(this.props.input);
+    // console.log(this.getData());
+    // console.log(this.props.data.main.temp);
+    
     return (
       <div className="App">
         <header className="App-header">
@@ -59,7 +68,14 @@ class App extends Component {
             rel="noopener noreferrer"
           >
           </a>
+          <form action=""  onSubmit={this.getData}>
             <input type="text" value={this.props.input} onChange={this.props.inputAction} placeholder="enter"/>
+            <button>Search</button>
+            <p>Name: {this.props.data.name}</p>
+            <p>id: {this.props.data.id}</p>
+            {/* <p>id: {this.props.data.main.temp}</p> */}
+            </form>
+            <button onClick={this.props.load}>de</button>
         </header>
       </div>
     );
@@ -69,7 +85,8 @@ class App extends Component {
 function mapStateToProps (state){ // Ця функція звертається до state
   return {
     input: state.input,
-    data: state.data
+    data: state.data,
+    loading: state.loading
   }
 }
 
@@ -78,8 +95,11 @@ function mapDispatchToProps (dispatch){
    inputAction: function(e){
     dispatch(input(e))
    },
-   fetchGet: function(){
-     dispatch(fetchData())
+   fetchGet: function(input){
+     dispatch(fetchData(input))
+   },
+   load: function() {
+     dispatch(loading())
    }
   }
 }

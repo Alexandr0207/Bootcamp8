@@ -7,8 +7,8 @@ export function fetchGet(payload) {
   }
 } 
 
-export const fetchData = () => dispatch => {
-  return Axios.get('https://api.openweathermap.org/data/2.5/weather?APPID=c60dd86e9ebff9397278842665cf0376&q=Kiev&units=metric')
+export const fetchData = (input) => dispatch => {
+  return Axios.get(`https://api.openweathermap.org/data/2.5/weather?APPID=2cf8416fa466735149c56e0e32345cdc&q=${input || 'Kiev'}&units=metric`)
   .then(res => dispatch(fetchGet(res.data)))
   .catch(err => console.error(err))
 }
