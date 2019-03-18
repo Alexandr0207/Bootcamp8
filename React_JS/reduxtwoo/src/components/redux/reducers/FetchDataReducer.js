@@ -1,7 +1,15 @@
-export default function fetchData(state = [], action){
+const startState = {
+  data: [],
+  loading: false,
+}
+
+export default function fetchData(state = startState, action){
   switch(action.type){
     case 'fetchGet':
-    return action.payload;
+    return {
+      data: action.payload,
+      loading: true
+    }
     default: 
       return state;
   }

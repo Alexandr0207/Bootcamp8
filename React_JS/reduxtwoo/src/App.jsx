@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import {connect } from 'react-redux';
 // import axios from 'axios';
 import {input} from './components/redux/actions/inputAction.js';
 import { fetchData } from './components/redux/actions/FetchDataAction.js';
-import {loading} from './components/redux/actions/LoadingAction';
+// import {loading} from './components/redux/actions/LoadingAction';
 
 
 class App extends Component {
@@ -47,6 +47,7 @@ class App extends Component {
   getData = (e) => {
     e.preventDefault();
     this.props.fetchGet(this.props.input);
+    // this.load();
   }
 
   
@@ -56,27 +57,21 @@ class App extends Component {
     
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          </a>
-          <form action=""  onSubmit={this.getData}>
+      {!this.props.loading ? <p>Loading...</p> :
+      <div>
+      <form action=""  onSubmit={this.getData}>
             <input type="text" value={this.props.input} onChange={this.props.inputAction} placeholder="enter"/>
             <button>Search</button>
-            <p>Name: {this.props.data.name}</p>
-            <p>id: {this.props.data.id}</p>
-            {/* <p>id: {this.props.data.main.temp}</p> */}
             </form>
-            <button onClick={this.props.load}>de</button>
-        </header>
+            <ul>
+              <li>Name: {this.props.data.name}</li>
+              <li>id: {this.props.data.id}</li>
+              <li>Temperature: {`${Math.round(this.props.data.main.temp)}°`}</li>
+              <li>Pressure: {this.props.data.main.pressure} m/s</li>
+            </ul> 
+              </div>
+            // <button onClick={this.props.load}>de</button>
+            }
       </div>
     );
   }
@@ -85,8 +80,8 @@ class App extends Component {
 function mapStateToProps (state){ // Ця функція звертається до state
   return {
     input: state.input,
-    data: state.data,
-    loading: state.loading
+    data: state.data.data,
+    loading: state.data.loading
   }
 }
 
@@ -98,9 +93,9 @@ function mapDispatchToProps (dispatch){
    fetchGet: function(input){
      dispatch(fetchData(input))
    },
-   load: function() {
-     dispatch(loading())
-   }
+  //  load: function() {
+  //    dispatch(loading())
+  //  }
   }
 }
 

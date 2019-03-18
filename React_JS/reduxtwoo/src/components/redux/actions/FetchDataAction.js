@@ -1,9 +1,9 @@
 import Axios from 'axios';
 
-export function fetchGet(payload) {
+export function fetchGet(data) {
   return{
     type: 'fetchGet',
-    payload: payload,
+    payload: data,
   }
 } 
 
